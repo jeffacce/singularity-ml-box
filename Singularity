@@ -15,4 +15,4 @@ From: nvidia/cuda:10.0-cudnn7-devel-ubuntu18.04
         pip3.6 --no-cache-dir install tensorflow-gpu
         pip3.6 --no-cache-dir install Keras
         pip3.6 --no-cache-dir install virtualenv tqdm seaborn requests
-
+        pip3.6 --no-cache-dir install 'tornado>=4, <6'
