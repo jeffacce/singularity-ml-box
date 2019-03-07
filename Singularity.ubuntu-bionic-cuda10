@@ -24,4 +24,4 @@ From: nvidia/cuda:10.0-cudnn7-devel-ubuntu18.04
 
 %startscript
         cd ~
-        jupyter lab --ip=0.0.0.0 --port=3123
+        nohup jupyter lab --ip=0.0.0.0 --port=3123 & 
