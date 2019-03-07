@@ -4,6 +4,9 @@ From: nvidia/cuda:10.0-cudnn7-devel-ubuntu16.04
 %post
         apt-get update
         apt-get install -y tmux vim wget curl
+        sudo add-apt-repository ppa:jonathonf/python-3.6
+        sudo add-apt-repository ppa:deadsnakes/ppa
+        apt-get update
         apt-get install -y python3.6 python3.6-dev python3.6-distutils
         apt-get install -y libglib2.0-0
         apt update
